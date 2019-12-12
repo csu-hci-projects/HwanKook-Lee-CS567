@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Mouse.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{936E414E-223D-4479-9C7A-7209AA6A138D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Mouse.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\MouseEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FBD50BC8-9BC3-4BD0-8EED-4B21286E5218}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Config\SteamVRBindings">
+      <UniqueIdentifier>{644D939D-B052-4046-8DF4-F5A876B723F0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\SteamVRBindings\gamepad.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\holographic_controller.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\indexhmd.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\knuckles.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\oculus_touch.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\rift.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\steamvr_manifest.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\vive.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\vive_controller.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\vive_cosmos_controller.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\vive_pro.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\vive_tracker_camera.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <Filter Include="Source\Mouse">
+      <UniqueIdentifier>{D4BEB756-BFC5-4E7C-B02B-07F024D61944}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Mouse\Mouse.Build.cs">
+      <Filter>Source\Mouse</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Mouse\Mouse.cpp">
+      <Filter>Source\Mouse</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Mouse\Mouse.h">
+      <Filter>Source\Mouse</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Mouse\RWTextFile.cpp">
+      <Filter>Source\Mouse</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Mouse\RWTextFile.h">
+      <Filter>Source\Mouse</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
